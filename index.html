@@ -12,15 +12,16 @@
         <h3>Conversor de Bases Numéricas.<br><br>Binario-Decimal</h3>
         <div id="binario">
             <label for="num_bin">Binario: </label>
-            <input type="text" name="num_bin" id="num_bin">
+            <input type="text" name="num_bin" id="num_bin" placeholder="Digite um número binário">
         </div>
         <div>
             <label for="num_dec">Decimal: </label>
-            <input type="text" name="num_dec" id="num_dec" disabled>
+            <input type="text" name="num_dec" id="num_dec" readonly>
         </div>
         <div>
-            <input type="button" value="CONVERTER">
+            <input type="button" value="CONVERTER" onclick="converter()">
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
